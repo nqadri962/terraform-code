@@ -7,3 +7,8 @@ resource "azurerm_resource_group" "SecondResourceGroup" {
   name     = "rg2"
   location = "East Europe"
 }
+
+resource "azurerm_resource_group" "ThirdResourceGroup" {
+  name     = "rg3"
+  location = "East Europe"
+}
